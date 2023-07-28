@@ -16,8 +16,10 @@ The shapes include Annulus, Box, Capsule, Cone, Cylinder, Sphere. The first 30 e
 
 For the ModelNet10 dataset we selected 50 meshes for the training set and 25 meshes for the testing set per class. In total, we took 500 meshes for the training set and 250 meshes for the testing set. After experimenting with different machine learning algorithms, the validation results for both datasets.  We first experimented with simple machine learning algorithms like Naive Bayes, KNN, Random Forest, Decision Trees, Gradient Boosting and more from the sklearn library. Then we experimented with the sequential model Bidirectional LSTM using the pytorch library to try and improve the results. The metric used for the evaluation procedure is accuracy. 
 
-
-
+# Files
+1. ArtificialMeshes_Classification.ipynb: This notebook file is used to perform classification on the synthetic dataset.
+2. ModelNet10_Classification.ipynb: This notebook file is used to perform classification on the ModelNet10 dataset.
+3. ModelNet10_and_40_Remesh.ipynb: This notebook file is used to perform adptive isotropic remeshing on the ModelNet10 and ModelNet40 datasets.
 
 
 
